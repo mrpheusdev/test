@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.div {
+
+    /* position: absolute; */
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    /* right: 0px;
+    bottom: -200px; */
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    box-shadow:
+        inset 0 0 50px #fff,
+        inset 20px 0 80px #f0f,
+        inset -20px 0 80px #0ff,
+        inset 20px 0 300px #f0f,
+        inset -20px 0 300px #0ff,
+        0 0 50px #fff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
+}
+
+.css-ubgqym {
+    /* display: none !important */
+}
+
+.connect {
+    background-color: rgb(0, 0, 0) !important;
+    color: #fff !important;
+    margin-left: auto !important;
+    /* -webkit-box-shadow: 8px 10px 0px -2px rgb(152, 4, 152) !important;
+    -moz-box-shadow: 8px 10px 0px -2px rgba(152, 4, 152, 1) !important;
+    box-shadow: 8px 10px 0px -2px rgba(152, 4, 152, 1) !important; */
+
+}
+
+.ant-modal {
+    border: 1px solid rgba(240, 46, 170, 0.9);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+}
+
+
+.ant-modal-content {
+    background-color: #051325 !important;
+    color: white;
+    padding: 20px;
+
+}
+
+
+
+.ant-modal-title {
+    background-color: #051325 !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+
+.wall-str {
+    background-image: url("./images/bomb.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.roadmap {
+    background-image: url("./images/roadmap.png");
+    background-position: center;
+    background-size: cover
+}
+
+/* .bags {
+    background-image: url("./images/bags.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
